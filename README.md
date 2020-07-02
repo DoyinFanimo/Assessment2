@@ -2,7 +2,14 @@
  
 ## Explanation about Solution
 
-I have completed the automation of https://www.auden.co.uk/credit/shorttermloan web application using Selenium WebDriver in C# and Specflow BDD framework
+I have completed the automation of https://www.auden.co.uk/credit/shorttermloan web application using Selenium WebDriver in C# and Specflow BDD framework using NUnit Microsoft.NET Core framework    
+I started by downloading SpecFlow extension and adding the NuGet packages stated below  
+Next, I created my file structures that was need to complete this task namely, Features, Hooks, PageObject and StepDefinitions files  
+I created separate feature to automate the weekends i.e. for Saturday and Sunday in the Feature file   
+The web UI elements were created in the PageObject while a class was instatiated in the StepDefinition so as to call the methods created in the PageObject  
+The Hook file contains the code to initiate and close down the browser for each scenario.
+
+
 
 ### Tools Used
 
