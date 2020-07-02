@@ -3,6 +3,7 @@
 ## Explanation about Solution
 
 I have completed the automation of https://www.auden.co.uk/credit/shorttermloan web application using Selenium WebDriver in C# and Specflow BDD framework using NUnit Microsoft.NET Core framework    
+
 I started by downloading SpecFlow extension and adding the NuGet packages stated below  
 Next, I created my file structures that was need to complete this task namely, Features, Hooks, PageObject and StepDefinitions files  
 I created separate feature to automate the weekends i.e. for Saturday and Sunday in the Feature file   
